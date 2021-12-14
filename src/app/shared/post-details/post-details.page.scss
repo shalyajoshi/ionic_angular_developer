@@ -1,0 +1,160 @@
+.top__toolbar {
+    margin-top: 60px;
+  }
+
+
+
+
+
+    ion-item {
+      --border-width: 0;
+      --inner-border-width: 0;
+      --padding-start: 0;
+      --inner-padding-end: 0;
+    }
+    .post__main {
+      width: 100%;
+
+  
+      
+  
+    .action__section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .left__side {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    .button__main {
+      ion-button {
+        --background: transparent;
+        --box-shadow: none;
+        margin: 0;
+        --padding-start: 0;
+        --padding-end: 0;
+      }
+    }
+    .main__action__area {
+      padding: 15px;
+    }
+    .like__section {
+      margin-top: 5px;
+    }
+  
+    .like__section .likes {
+      color: #000000;
+      font-size: 13px;
+      line-height: 22px;
+      font-weight: bold;
+    }
+    .time__post {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+  .home_wrp{
+    margin-top: auto;
+  }
+  .fs30{
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  
+
+  padding: 10px 0;
+  margin-top: 35px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  .post__left {
+    display: flex;
+    align-items: center;
+
+    .post__img {
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      margin-right: 10px;
+
+      ion-img {
+        object-fit: cover;
+        height: 100%;
+        border-radius: 100%;
+        overflow: hidden;
+      }
+    }
+
+    .post__name {
+      h6 {
+        font-size: 12px;
+        line-height: 22px;
+        color: #000000;
+        margin: 0;
+      }
+      p{
+        margin: 0;
+        font-size: 11px;
+      }
+    }
+  }
+
+  .post__right {
+    ion-button {
+      --ion-color-base: transparent !important;
+      --box-shadow: none;
+    
+    }
+  }
+}
+.comment-item {
+  padding: 8px;
+  border-bottom: 1px solid var(--ion-color-light);
+  line-height: 1.4;
+
+  &.reply {
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .username {
+    font-weight: 700;
+    margin-right: 4px;
+  }
+
+  .comment-actions {
+    font-size: 13px;
+    color: var(--ion-color-medium);
+    margin-top: 8px;
+
+    .action-item {
+      margin-right: 16px;
+    }
+  }
+
+  .hash-tag {
+    text-decoration: none;
+    margin-right: 4px;
+  }
+
+  .replies {
+    padding-left: 40px;
+  }
+}
+
+ion-toolbar ion-avatar {
+  margin-right: 8px;
+}
+
+ion-input {
+  --background: var(--ion-color-light);
+  --padding-start: 12px;
+  --padding-end: 12px;
+  border-radius: 20px;
+}

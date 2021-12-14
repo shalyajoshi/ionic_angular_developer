@@ -1,1 +1,0 @@
-# ionic_angular_developer
