@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ionic test task instagram",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
